@@ -46,6 +46,8 @@ public class task5 {
         for (int i = 0; i < lst.size(); i++) {
             if (lst.get(i) % 2 == 0){
                 lst.remove(i);
+                i--;
+                
               
             }
             System.out.print("Even num removing");
